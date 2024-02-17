@@ -309,7 +309,7 @@ $result = mysqli_query($conexao,$sql);
         <br>
         <div class="row">
             <div class="col-sm-3">
-                <strong>NAVEGAÇÃO</strong>
+            <strong id="clicklink" href="login.php">NAVEGAÇÃO</strong>
                 <script src="js/click.js"></script>
                 <br>
                 <a href="index.php" style="color: white; text-decoration: none">Início</a>
@@ -366,4 +366,3 @@ $result = mysqli_query($conexao,$sql);
 
 </body>
 </html>
-
