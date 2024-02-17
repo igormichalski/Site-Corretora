@@ -1,0 +1,38 @@
+.corpo {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../img/backgraund2.jpg');
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.transparencia{
+    opacity: 0.8;
+}
+
+.cor-customizada {
+    color: #0f5132;
+    font-family: "Arial";
+    font-weight: bolder;
+}
+
+.botao-card {
+    position: absolute;
+    top: 10px; /* Ajuste a posição vertical conforme necessário */
+    left: 10px; /* Ajuste a posição horizontal conforme necessário */
+    z-index: 1; /* Para garantir que o botão esteja acima da imagem */
+}
+
+.naFrente{
+    position: absolute;
+    z-index: 9999;
+}
